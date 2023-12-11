@@ -8,6 +8,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Admin | Inicios de Sesion Coaches</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -39,14 +40,14 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin | Inicios de Sesion Coaches</h1>
+									<h1 class="mainTitle">Admin | Inicios de Sesión Coaches</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
 										<span>Admin </span>
 									</li>
 									<li class="active">
-										<span>Inicios de Sesion Coaches</span>
+										<span>Inicios de Sesión Coaches</span>
 									</li>
 								</ol>
 							</div>
@@ -68,8 +69,8 @@ check_login();
 												<th class="hidden-xs">Usuarios id</th>
 												<th>Nombre de Usuario</th>
 												<th>Ip del Usuario</th>
-												<th>Hora de inicio de sesion</th>
-												<th>Hora de Cierre de sesion </th>
+												<th>Hora de inicio de sesión</th>
+												<th>Hora de Cierre de sesión </th>
 												<th> Estatus </th>
 												
 												

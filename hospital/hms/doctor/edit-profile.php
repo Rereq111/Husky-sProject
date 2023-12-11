@@ -22,6 +22,7 @@ echo "<script>alert('Doctor Details updated Successfully');</script>";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Coach | Editar Detalles</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -117,7 +118,7 @@ while($row=mysqli_fetch_array($ret))
 
 <div class="form-group">
 															<label for="address">
-																 Direccion
+																 Dirección
 															</label>
 					<textarea name="clinicaddress" class="form-control"><?php echo htmlentities($data['address']);?></textarea>
 														</div>
@@ -130,7 +131,7 @@ while($row=mysqli_fetch_array($ret))
 	
 <div class="form-group">
 									<label for="fess">
-																 Numero Contacto
+																 Número Contacto
 															</label>
 					<input type="text" name="doccontact" class="form-control" required="required"  value="<?php echo htmlentities($data['contactno']);?>">
 														</div>

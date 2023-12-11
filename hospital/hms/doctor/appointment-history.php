@@ -13,6 +13,7 @@ mysqli_query($con,"update appointment set doctorStatus='0' where id ='".$_GET['i
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Coach | Historial de clases</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -74,9 +75,9 @@ mysqli_query($con,"update appointment set doctorStatus='0' where id ='".$_GET['i
 												<th>Material</th>
 												<th>Cuota</th>
 												<th>Fecha Clase / Hora </th>
-												<th>Fecha creacion clase  </th>
+												<th>Fecha creación clase  </th>
 												<th>Estado Actual</th>
-												<th>Accion</th>
+												<th>Acción</th>
 												
 											</tr>
 										</thead>

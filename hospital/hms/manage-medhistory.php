@@ -9,6 +9,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Usuarios registrados | Ver Historial</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -59,11 +60,11 @@ check_login();
 <tr>
 <th class="center">#</th>
 <th>Nombre Alumno</th>
-<th>Numero de contacto</th>
-<th>Genero </th>
-<th>Fecha de Creacion </th>
-<th>Fecha de actualizacion </th>
-<th>Accion</th>
+<th>Número de contacto</th>
+<th>Género </th>
+<th>Fecha de Creación </th>
+<th>Fecha de actualización </th>
+<th>Acción</th>
 </tr>
 </thead>
 <tbody>

@@ -8,6 +8,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Alumnos | Historial de Clases</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -70,9 +71,9 @@ check_login();
 												<th>Material</th>
 												<th>Cuota</th>
 												<th>Fecha de Clase / Hora </th>
-												<th>Fecha de Creacion Clase </th>
+												<th>Fecha de Creación Clase </th>
 												<th>Estatus Actual</th>
-												<th>Accion</th>
+												<th>Acción</th>
 												
 											</tr>
 										</thead>

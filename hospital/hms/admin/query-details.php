@@ -21,6 +21,7 @@ echo "<script>window.location.href ='read-query.php'</script>";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Admin | Detalles de Mensajes</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -93,7 +94,7 @@ while($row=mysqli_fetch_array($sql))
 												<td><?php echo $row['email'];?></td>
 											</tr>
 											<tr>
-												<th>Numero de Contacto</th>
+												<th>Número de Contacto</th>
 												<td><?php echo $row['contactno'];?></td>
 											</tr>
 											<tr>

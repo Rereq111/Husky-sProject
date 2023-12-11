@@ -1,18 +1,19 @@
 <?php error_reporting(0);?>
 <header class="navbar navbar-default navbar-static-top">
+<meta charset="UTF-8">
 					<!-- start: NAVBAR HEADER -->
 					<div class="navbar-header">
 						<a href="#" class="sidebar-mobile-toggler pull-left hidden-md hidden-lg" class="btn btn-navbar sidebar-toggle" data-toggle-class="app-slide-off" data-toggle-target="#app" data-toggle-click-outside="#sidebar">
 							<i class="ti-align-justify"></i>
 						</a>
 						<a class="navbar-brand" href="#">
-							<h2 style="padding-top:20% ">Basketball</h2>
+							<h2 style="padding-top:15% ">Husky's Center</h2>
 						</a>
 						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
 							<i class="ti-align-justify"></i>
 						</a>
 						<a class="pull-right menu-toggler visible-xs-block" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse">
-							<span class="sr-only">Navegacion</span>
+							<span class="sr-only">Navegación</span>
 							<i class="ti-view-grid"></i>
 						</a>
 					</div>
@@ -22,7 +23,7 @@
 						<ul class="nav navbar-right">
 							<!-- start: MESSAGES DROPDOWN -->
 								<li  style="padding-top:2% ">
-								<h2>Basketball</h2>
+								<h2>Husky's Center</h2>
 							</li>
 						
 						
@@ -42,18 +43,18 @@ while($row=mysqli_fetch_array($query))
 								<ul class="dropdown-menu dropdown-dark">
 									<li>
 										<a href="edit-profile.php">
-											My Profile
+											Mi perfil
 										</a>
 									</li>
 								
 									<li>
 										<a href="change-password.php">
-											Change Password
+											Cambiar Contraseña
 										</a>
 									</li>
 									<li>
 										<a href="logout.php">
-											Log Out
+											Cerrar Sesión
 										</a>
 									</li>
 								</ul>

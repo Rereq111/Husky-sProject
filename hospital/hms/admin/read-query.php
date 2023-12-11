@@ -15,7 +15,8 @@ if(isset($_GET['del']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Admin | Administrar Mensajes Leidos</title>
+	<meta charset="UTF-8">
+		<title>Admin | Administrar Mensajes Leídos</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -46,7 +47,7 @@ if(isset($_GET['del']))
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin | Administrar Mensajes Leidos</h1>
+									<h1 class="mainTitle">Admin | Administrar Mensajes Leídos</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
@@ -65,16 +66,16 @@ if(isset($_GET['del']))
 
 									<div class="row">
 								<div class="col-md-12">
-									<h5 class="over-title margin-bottom-15">Administrar <span class="text-bold">Mensajes Leidos</span></h5>
+									<h5 class="over-title margin-bottom-15">Administrar <span class="text-bold">Mensajes Leídos</span></h5>
 									<table class="table table-hover" id="sample-table-1">
 										<thead>
 											<tr>
 												<th class="center">#</th>
 												<th>Nombre</th>
 												<th class="hidden-xs">Email</th>
-												<th>Numero de Contacto </th>
+												<th>Número de Contacto </th>
 												<th>Mensaje </th>
-												<th>Accion</th>
+												<th>Acción</th>
 												
 											</tr>
 										</thead>

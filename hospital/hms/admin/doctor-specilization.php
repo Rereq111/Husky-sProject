@@ -19,6 +19,7 @@ if(isset($_GET['del']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Admin | Coach Material</title>
 	
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -50,7 +51,7 @@ if(isset($_GET['del']))
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin | Añadir Material de Coach</h1>
+									<h1 class="mainTitle">Admin | Agregar Material de Coach</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
@@ -115,9 +116,9 @@ if(isset($_GET['del']))
 											<tr>
 												<th class="center">#</th>
 												<th>Material(Camas)</th>
-												<th class="hidden-xs">Fecha de creacion</th>
-												<th>Fecha actualizacion</th>
-												<th>Accion</th>
+												<th class="hidden-xs">Fecha de creación</th>
+												<th>Fecha actualización</th>
+												<th>Acción</th>
 												
 											</tr>
 										</thead>

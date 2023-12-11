@@ -2,7 +2,7 @@
 				<div class="sidebar-container perfect-scrollbar">
 
 <nav>
-						
+			
 						<!-- start: MAIN NAVIGATION MENU -->
 						<div class="navbar-title">
 							<span>Navegacion Principal</span>
@@ -39,7 +39,7 @@
 									</li>
 									<li>
 										<a href="add-doctor.php">
-											<span class="title"> Añadir Coach</span>
+											<span class="title"> Agregar Coach</span>
 										</a>
 									</li>
 									<li>
@@ -79,7 +79,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Informacion Alumnos </span><i class="icon-arrow"></i>
+											<span class="title"> Datos Alumnos </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -87,7 +87,7 @@
 									
 									<li>
 										<a href="manage-patient.php">
-											<span class="title"> Administrar Informacion </span>
+											<span class="title"> Administrar Datos </span>
 										</a>
 									</li>
 									
@@ -124,13 +124,13 @@
 									
 									<li>
 										<a href="unread-queries.php">
-											<span class="title"> Mensajes No Leidos </span>
+											<span class="title"> Mensajes sin Leer </span>
 										</a>
 									</li>
 
 									<li>
 										<a href="read-query.php">
-											<span class="title"> Mensajes Leidos </span>
+											<span class="title"> Mensajes Revisados </span>
 										</a>
 									</li>
 									
@@ -146,7 +146,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Inicios de Sesion Coaches </span>
+											<span class="title"> Inicios de cuenta Coaches </span>
 										</div>
 									</div>
 								</a>
@@ -161,7 +161,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Inicios de Sesion Alumnos </span>
+											<span class="title"> Inicios de cuentas Alumnos </span>
 										</div>
 									</div>
 								</a>

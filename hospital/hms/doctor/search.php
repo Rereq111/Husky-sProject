@@ -9,6 +9,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Coach | Administrar Alumnos</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -56,7 +57,7 @@ check_login();
 
 <div class="form-group">
 <label for="doctorname">
-Buscar por Nombre/Numero Telefonico.
+Buscar por Nombre/Número Telefónico.
 </label>
 <input type="text" name="searchdata" id="searchdata" class="form-control" value="" required='true'>
 </div>

@@ -15,6 +15,7 @@ if(isset($_GET['del']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Admin | Administrar Coaches</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -74,8 +75,8 @@ if(isset($_GET['del']))
 												<th class="center">#</th>
 												<th>Material</th>
 												<th class="hidden-xs">Nombre Coach</th>
-												<th>Fecha de Creacion </th>
-												<th>Accion</th>
+												<th>Fecha de Creación </th>
+												<th>Acción</th>
 												
 											</tr>
 										</thead>

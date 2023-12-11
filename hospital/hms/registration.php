@@ -22,6 +22,7 @@ if($query)
 <html lang="en">
 
 	<head>
+	<meta charset="UTF-8">
 		<title>Registro</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -56,14 +57,14 @@ return true;
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<a href="../index.html"><h2>Basketball | Registro</h2></a>
+				<a href="../index.html"><h2>Husky's Center | Registro</h2></a>
 				</div>
 				<!-- start: REGISTER BOX -->
 				<div class="box-register">
 					<form name="registration" id="registration"  method="post" onSubmit="return valid();">
 						<fieldset>
 							<legend>
-								Registrate
+								Regístrate
 							</legend>
 							<p>
 								Introduzca sus datos personales a continuación:
@@ -72,14 +73,14 @@ return true;
 								<input type="text" class="form-control" name="full_name" placeholder="Nombre Completo" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="address" placeholder="Direccion" required>
+								<input type="text" class="form-control" name="address" placeholder="Dirección" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="city" placeholder="Numero Telefonico" required>
+								<input type="text" class="form-control" name="city" placeholder="Número Telefónico" required>
 							</div>
 							<div class="form-group">
 								<label class="block">
-									Genero
+									Género
 								</label>
 								<div class="clip-radio radio-primary">
 									<input type="radio" id="rg-female" name="gender" value="Femenino" >
@@ -123,7 +124,7 @@ return true;
 								<p>
 									¿Ya tienes Una Cuenta?
 									<a href="user-login.php">
-										Inicia Sesion
+										Inicia Sesión
 									</a>
 								</p>
 								<button type="submit" class="btn btn-primary pull-right" id="submit" name="submit">

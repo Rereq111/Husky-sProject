@@ -5,7 +5,7 @@
 						
 						<!-- start: MAIN NAVIGATION MENU -->
 						<div class="navbar-title">
-							<span>Navegacion Principal</span>
+							<span>Navegación Principal</span>
 						</div>
 						<ul class="main-navigation-menu">
 							<li>
@@ -49,7 +49,7 @@
 									
 									<li>
 										<a href="add-patient.php">
-											<span class="title"> Añadir Alumno</span>
+											<span class="title"> Agregar Alumno</span>
 										</a>
 									</li>
 									<li>

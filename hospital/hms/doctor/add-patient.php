@@ -27,6 +27,7 @@ header('location:add-patient.php');
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<meta charset="UTF-8">
 		<title>Coach | Añadir Alumno</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -104,9 +105,9 @@ Nombre Alumno
 </div>
 <div class="form-group">
 <label for="fess">
- Numero Contacto Alumno
+ Número Contacto Alumno
 </label>
-<input type="text" name="patcontact" class="form-control"  placeholder="Agregar Numero" required="true" maxlength="10" pattern="[0-9]+">
+<input type="text" name="patcontact" class="form-control"  placeholder="Agregar Número" required="true" maxlength="10" pattern="[0-9]+">
 </div>
 <div class="form-group">
 <label for="fess">
@@ -117,7 +118,7 @@ Email Alumno
 </div>
 <div class="form-group">
 <label class="block">
-Genero
+Género
 </label>
 <div class="clip-radio radio-primary">
 <input type="radio" id="rg-female" name="gender" value="female" >
@@ -132,9 +133,9 @@ Masculino
 </div>
 <div class="form-group">
 <label for="address">
-Direccion Alumno
+Dirección Alumno
 </label>
-<textarea name="pataddress" class="form-control"  placeholder="Agregar Direccion" required="true"></textarea>
+<textarea name="pataddress" class="form-control"  placeholder="Agregar Dirección" required="true"></textarea>
 </div>
 <div class="form-group">
 <label for="fess">
